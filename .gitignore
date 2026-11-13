@@ -1,0 +1,40 @@
+# Simulation compiled outputs (all .daidir anywhere)
+**/*.daidir/
+**/csrc/
+**/simv
+**/simv_*
+results/mut/
+results/mut_final/
+results/mut_pass*/
+results/e/
+results/plots/
+
+# Synthesis outputs
+syn/
+syn_mem/
+syn_opt0/
+
+# Log files
+*.log
+*.vcd
+*.fsdb
+*.shm/
+probe*.log
+regr*.log
+mut_run*.log
+
+# Tool generated
+*.ucdb
+*.done
+*.o
+*.a
+*.so
+*.d
+*.key
+*.rc
+*.history
+*.vdb/
+
+# OS
+.DS_Store
+Thumbs.db

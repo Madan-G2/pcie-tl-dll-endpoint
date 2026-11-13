@@ -1,0 +1,15 @@
+smoke            pcie_smoke_test          +NOPS=40 +ntb_random_seed=1
+rand             pcie_rand_test           +NOPS=60 +ntb_random_seed=1
+rand_bimodal     pcie_rand_test           +NOPS=60 +ntb_random_seed=2 +MEMPOL=2 +BP=20
+rand_opt         pcie_rand_opt_test       +NOPS=60 +ntb_random_seed=1
+small_wr         pcie_small_wr_test       +NOPS=60 +ntb_random_seed=1
+small_wr_opt     pcie_small_wr_test       +NOPS=60 +ntb_random_seed=1 +OPT=1
+fi_1000ppm       pcie_fi_rate_test        +NOPS=60 +ntb_random_seed=1 +PPM=1000
+fi_20000ppm      pcie_fi_rate_test        +NOPS=60 +ntb_random_seed=1 +PPM=20000
+fi_opt           pcie_fi_rate_test        +NOPS=60 +ntb_random_seed=1 +PPM=20000 +OPT=1
+fi_directed      pcie_fi_directed_test    +NOPS=60 +ntb_random_seed=1
+rd_pipe          pcie_rd_pipe_test        +NOPS=60 +ntb_random_seed=1
+rd_pipe_opt      pcie_rd_pipe_opt_test    +NOPS=60 +ntb_random_seed=1
+credit_starve    pcie_credit_starve_test  +NOPS=60 +ntb_random_seed=1
+err              pcie_err_test            +NOPS=60 +ntb_random_seed=1
+linkdown         pcie_linkdown_test       +NOPS=60 +ntb_random_seed=1

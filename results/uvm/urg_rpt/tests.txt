@@ -1,0 +1,22 @@
+Tests
+
+Total Coverage Summary 
+SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT GROUP  
+ 79.97  94.16  79.76  75.87  67.59  84.28  89.77  68.37 
+
+
+Total tests in report: 11
+-------------------------------------------------------------------------------
+Data from the following tests was used to generate this report
+cov/pcie_rd_pipe_test       
+cov/pcie_err_test           
+cov/pcie_credit_starve_test 
+cov/pcie_fi_rate_test       
+cov/pcie_rd_pipe_opt_test   
+cov/pcie_rand_opt_test      
+cov/pcie_linkdown_test      
+cov/pcie_fi_directed_test   
+cov/pcie_smoke_test         
+cov/pcie_rand_test          
+cov/pcie_small_wr_test      
+

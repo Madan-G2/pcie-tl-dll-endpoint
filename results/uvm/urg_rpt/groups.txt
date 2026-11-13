@@ -1,0 +1,16 @@
+Testbench Group List
+
+Total Groups Coverage Summary 
+SCORE  INST SCORE WEIGHT 
+ 68.37  68.37     1      
+
+
+Total groups in report: 5
+-------------------------------------------------------------------------------
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                            
+ 44.44  44.44    1      100    1        1            64           64                    pcie_uvm_pkg::pcie_cov::cg_fi   
+ 56.25  56.25    1      100    1        1            64           64                    pcie_uvm_pkg::pcie_cov::cg_err  
+ 70.45  70.45    1      100    1        1            64           64                    pcie_uvm_pkg::pcie_cov::cg_dllp 
+ 75.69  75.69    1      100    1        1            64           64                    pcie_uvm_pkg::pcie_cov::cg_tlp  
+ 95.00  95.00    1      100    1        1            64           64                    pcie_uvm_pkg::pcie_cov::cg_axi  
+

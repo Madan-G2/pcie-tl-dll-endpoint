@@ -1,0 +1,56 @@
+Design Module List
+
+Total Module Definition Coverage Summary 
+SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT 
+ 82.59  94.53  82.16  75.59  68.52  85.38  89.36 
+
+
+Total modules in report: 27
+-------------------------------------------------------------------------------
+SCORE              LINE     COND     TOGGLE   FSM      BRANCH   ASSERT   NAME                                                         
+ 15.50             --       --        15.50   --       --       --       fi_if                                                        
+ 33.33             --       --       --       --       --        33.33   uvm_pkg                                                      
+ 42.75              72.22    38.46    16.18   --        44.12   --       csr_regs                                                     
+ 54.17              87.50   --        75.00   --         0.00   --       tb_uvm_top                                                   
+ 55.42             --       --        55.42   --       --       --       csr_if                                                       
+ 67.54              82.98    71.88    48.63   --        66.67   --       cfg_space                                                    
+ 71.69              89.05    76.19    51.06   --        70.45   --       link_dir                                                     
+ 73.84              92.81    86.21    44.95    66.67    78.57   --       dll_fc                                                       
+ 74.11              90.00    73.49    72.13    54.55    80.39   --       mst_rd_path                                                  
+ 76.28             100.00    71.43    50.36   --        83.33   --       link_model                                                   
+ 77.02              91.23    82.42    89.54    42.86    79.07   --       wr_coalescer                                                 
+ 78.26             --       --        78.26   --       --       --       axi_if                                                       
+ 82.74              97.64    79.42    58.58   --        95.31   --       tl_rx                                                        
+ 82.76              90.76    74.74    71.09   --        94.44   --       rd_tag_table                                                 
+ 85.86              96.88    84.85    90.35    69.23    88.00   --       slv_wr_path                                                  
+ 86.72              98.08    90.00    75.29    75.00    95.24   --       mst_wr_path                                                  
+ 88.34             100.00    87.50    65.85   --       100.00   --       pcie_ep_top                                                  
+ 88.47              97.25    86.13    75.26   --        95.24   --       slv_rd_path                                                  
+ 88.86              98.70    82.90    86.98    83.33    92.38   --       dll_rx                                                       
+ 89.73             100.00    81.58    88.46   --        88.89   --       dw_repack                                                    
+ 89.80              97.76    84.34    79.24   100.00    87.63   --       dll_tx                                                       
+ 89.91              98.95    88.14    75.35   --        97.22   --       tl_tx                                                        
+ 93.97             100.00    91.67    84.20   --       100.00   --       axi_slv_bridge                                               
+ 94.36             100.00   100.00    77.42   --       100.00   --       tl_queue                                                     
+                   
+  ---------------- 
+  SCORE              LINE     COND     TOGGLE   FSM      BRANCH   ASSERT   NAME                                                       
+  100.00             100.00   --       --       --       100.00   --       tl_queue                                                   
+   79.66             --       100.00    59.33   --       --       --       tl_queue ( parameter DEPTH=16,AW=4 )                       
+   97.76             --       100.00    95.52   --       --       --       tl_queue ( parameter DEPTH=64,AW=6 )                       
+                   
+----------------   
+SCORE              LINE     COND     TOGGLE   FSM      BRANCH   ASSERT   NAME                                                         
+ 94.40             100.00   100.00    78.80   --       100.00    93.18   pcie_checker                                                 
+ 99.00             --       --        99.00   --       --       --       lnk_if                                                       
+ 99.95             100.00   --        99.86   --       100.00   --       ram_sdp                                                      
+                   
+  ---------------- 
+  SCORE              LINE     COND     TOGGLE   FSM      BRANCH   ASSERT   NAME                                                       
+  100.00             100.00   --       --       --       100.00   --       ram_sdp                                                    
+  100.00             --       --       100.00   --       --       --       ram_sdp ( parameter W=128,DEPTH=256,LANES=1,AW=8,LW=128 )  
+   99.28             --       --        99.28   --       --       --       ram_sdp ( parameter W=128,DEPTH=512,LANES=1,AW=9,LW=128 )  
+  100.00             --       --       100.00   --       --       --       ram_sdp ( parameter W=128,DEPTH=512,LANES=4,AW=9,LW=32 )   
+  100.00             --       --       100.00   --       --       --       ram_sdp ( parameter W=128,DEPTH=64,LANES=1,AW=6,LW=128 )   
+  100.00             --       --       100.00   --       --       --       ram_sdp ( parameter W=132,DEPTH=256,LANES=1,AW=8,LW=132 )  
+

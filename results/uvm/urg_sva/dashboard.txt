@@ -1,0 +1,28 @@
+Dashboard
+
+Date: Mon Nov  9 11:21:29 2026
+
+User: 018218694
+
+Version: U-2023.03-SP2-8
+Command line: urg -dir cov.vdb -format text -report urg_sva -metric assert 
+
+Number of tests: 11
+
+-------------------------------------------------------------------------------
+Total Coverage Summary 
+SCORE  ASSERT 
+ 84.06  84.06 
+
+
+-------------------------------------------------------------------------------
+Hierarchical coverage data for top-level instances 
+SCORE  ASSERT NAME       
+ 84.06  84.06 tb_uvm_top 
+
+
+-------------------------------------------------------------------------------
+Total Module Definition Coverage Summary 
+SCORE  ASSERT 
+ 85.78  85.78 
+

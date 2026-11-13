@@ -1,0 +1,33 @@
+Design Module List
+
+Total Module Definition Coverage Summary 
+SCORE  ASSERT 
+ 85.78  85.78 
+
+
+Total modules in report: 22
+-------------------------------------------------------------------------------
+SCORE  ASSERT NAME           
+ 33.33  33.33 uvm_pkg        
+ 55.56  55.56 rd_tag_chk     
+ 70.83  70.83 tl_rx_chk      
+ 80.56  80.56 dll_tx_chk     
+ 84.21  84.21 dll_fc_chk     
+ 87.50  87.50 wr_coal_chk    
+ 91.03  91.03 pcie_checker   
+ 91.30  91.30 dll_rx_chk     
+100.00 100.00 tl_top_chk     
+100.00 100.00 tl_tx_chk      
+100.00 100.00 slv_rd_chk     
+--     --     wr_coalescer   
+--     --     dll_rx         
+--     --     axi_slv_bridge 
+--     --     dll_tx         
+--     --     pcie_ep_top    
+--     --     rd_tag_table   
+--     --     slv_rd_path    
+--     --     tl_rx          
+--     --     tb_uvm_top     
+--     --     tl_tx          
+--     --     dll_fc         
+

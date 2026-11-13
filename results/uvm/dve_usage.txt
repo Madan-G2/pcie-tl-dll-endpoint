@@ -1,0 +1,346 @@
+=== gui_wv_zoom_timerange
+
+--- help
+help                         Display command help
+Usage:
+    help -ucli [<patterns>] [<option>]
+
+Description:
+    help              ;# one line description of each command
+    help <cmd>        ;# usage information for <cmd>
+    help <pattern>    ;# one line desc of cmds matching pattern
+    help <cmd> <option>
+      where <option> is one of:
+        -text         ;# one line description for <cmd>
+        -info         ;# short usage information for <cmd>
+        -full         ;# full usage information with examples
+        -apropos      ;# scan one-line descriptions for matching text
+
+        -brief        ;# brief string for <cmd>
+        -usage        ;# usage string for <cmd>
+        -description  ;# description string for <cmd>
+        -examples     ;# examples string for <cmd>
+
+Examples:
+    % help -ucli r*
+    release                  Release a variable from the value assigned using 'force'
+    restore                  Restore simulation state saved in a file
+    run                      Advance the tool and stop
+    ...
+
+    % package require tcldoc
+    % help -ucli Tcl c*
+    catch                    Evaluate script and trap exceptional returns
+    cd                       Change working directory
+    clock                    Obtain and manipulate time
+    ...
+
+    % package require tcldoc
+    % help -ucli stack -apropos
+    stack                    Display thread information or move the call stack
+    status                   Display the macro file stack
+    uplevel                  Execute a script in a different stack frame
+    ...
+=== gui_set_window_attributes
+
+--- help
+help                         Display command help
+Usage:
+    help -ucli [<patterns>] [<option>]
+
+Description:
+    help              ;# one line description of each command
+    help <cmd>        ;# usage information for <cmd>
+    help <pattern>    ;# one line desc of cmds matching pattern
+    help <cmd> <option>
+      where <option> is one of:
+        -text         ;# one line description for <cmd>
+        -info         ;# short usage information for <cmd>
+        -full         ;# full usage information with examples
+        -apropos      ;# scan one-line descriptions for matching text
+
+        -brief        ;# brief string for <cmd>
+        -usage        ;# usage string for <cmd>
+        -description  ;# description string for <cmd>
+        -examples     ;# examples string for <cmd>
+
+Examples:
+    % help -ucli r*
+    release                  Release a variable from the value assigned using 'force'
+    restore                  Restore simulation state saved in a file
+    run                      Advance the tool and stop
+    ...
+
+    % package require tcldoc
+    % help -ucli Tcl c*
+    catch                    Evaluate script and trap exceptional returns
+    cd                       Change working directory
+    clock                    Obtain and manipulate time
+    ...
+
+    % package require tcldoc
+    % help -ucli stack -apropos
+    stack                    Display thread information or move the call stack
+    status                   Display the macro file stack
+    uplevel                  Execute a script in a different stack frame
+    ...
+=== gui_open_window
+Usage: gui_open_window    # Open a window of specified type.
+        type (Source/Schematic/PathSchematic/Wave/List/Memory/Assertion/Console/Hier/Data/Transaction/Stream)
+ok
+--- help
+help                         Display command help
+Usage:
+    help -ucli [<patterns>] [<option>]
+
+Description:
+    help              ;# one line description of each command
+    help <cmd>        ;# usage information for <cmd>
+    help <pattern>    ;# one line desc of cmds matching pattern
+    help <cmd> <option>
+      where <option> is one of:
+        -text         ;# one line description for <cmd>
+        -info         ;# short usage information for <cmd>
+        -full         ;# full usage information with examples
+        -apropos      ;# scan one-line descriptions for matching text
+
+        -brief        ;# brief string for <cmd>
+        -usage        ;# usage string for <cmd>
+        -description  ;# description string for <cmd>
+        -examples     ;# examples string for <cmd>
+
+Examples:
+    % help -ucli r*
+    release                  Release a variable from the value assigned using 'force'
+    restore                  Restore simulation state saved in a file
+    run                      Advance the tool and stop
+    ...
+
+    % package require tcldoc
+    % help -ucli Tcl c*
+    catch                    Evaluate script and trap exceptional returns
+    cd                       Change working directory
+    clock                    Obtain and manipulate time
+    ...
+
+    % package require tcldoc
+    % help -ucli stack -apropos
+    stack                    Display thread information or move the call stack
+    status                   Display the macro file stack
+    uplevel                  Execute a script in a different stack frame
+    ...
+=== gui_zoom
+
+--- help
+help                         Display command help
+Usage:
+    help -ucli [<patterns>] [<option>]
+
+Description:
+    help              ;# one line description of each command
+    help <cmd>        ;# usage information for <cmd>
+    help <pattern>    ;# one line desc of cmds matching pattern
+    help <cmd> <option>
+      where <option> is one of:
+        -text         ;# one line description for <cmd>
+        -info         ;# short usage information for <cmd>
+        -full         ;# full usage information with examples
+        -apropos      ;# scan one-line descriptions for matching text
+
+        -brief        ;# brief string for <cmd>
+        -usage        ;# usage string for <cmd>
+        -description  ;# description string for <cmd>
+        -examples     ;# examples string for <cmd>
+
+Examples:
+    % help -ucli r*
+    release                  Release a variable from the value assigned using 'force'
+    restore                  Restore simulation state saved in a file
+    run                      Advance the tool and stop
+    ...
+
+    % package require tcldoc
+    % help -ucli Tcl c*
+    catch                    Evaluate script and trap exceptional returns
+    cd                       Change working directory
+    clock                    Obtain and manipulate time
+    ...
+
+    % package require tcldoc
+    % help -ucli stack -apropos
+    stack                    Display thread information or move the call stack
+    status                   Display the macro file stack
+    uplevel                  Execute a script in a different stack frame
+    ...
+=== gui_marker_create
+
+--- help
+help                         Display command help
+Usage:
+    help -ucli [<patterns>] [<option>]
+
+Description:
+    help              ;# one line description of each command
+    help <cmd>        ;# usage information for <cmd>
+    help <pattern>    ;# one line desc of cmds matching pattern
+    help <cmd> <option>
+      where <option> is one of:
+        -text         ;# one line description for <cmd>
+        -info         ;# short usage information for <cmd>
+        -full         ;# full usage information with examples
+        -apropos      ;# scan one-line descriptions for matching text
+
+        -brief        ;# brief string for <cmd>
+        -usage        ;# usage string for <cmd>
+        -description  ;# description string for <cmd>
+        -examples     ;# examples string for <cmd>
+
+Examples:
+    % help -ucli r*
+    release                  Release a variable from the value assigned using 'force'
+    restore                  Restore simulation state saved in a file
+    run                      Advance the tool and stop
+    ...
+
+    % package require tcldoc
+    % help -ucli Tcl c*
+    catch                    Evaluate script and trap exceptional returns
+    cd                       Change working directory
+    clock                    Obtain and manipulate time
+    ...
+
+    % package require tcldoc
+    % help -ucli stack -apropos
+    stack                    Display thread information or move the call stack
+    status                   Display the macro file stack
+    uplevel                  Execute a script in a different stack frame
+    ...
+=== gui_list_expand
+
+--- help
+help                         Display command help
+Usage:
+    help -ucli [<patterns>] [<option>]
+
+Description:
+    help              ;# one line description of each command
+    help <cmd>        ;# usage information for <cmd>
+    help <pattern>    ;# one line desc of cmds matching pattern
+    help <cmd> <option>
+      where <option> is one of:
+        -text         ;# one line description for <cmd>
+        -info         ;# short usage information for <cmd>
+        -full         ;# full usage information with examples
+        -apropos      ;# scan one-line descriptions for matching text
+
+        -brief        ;# brief string for <cmd>
+        -usage        ;# usage string for <cmd>
+        -description  ;# description string for <cmd>
+        -examples     ;# examples string for <cmd>
+
+Examples:
+    % help -ucli r*
+    release                  Release a variable from the value assigned using 'force'
+    restore                  Restore simulation state saved in a file
+    run                      Advance the tool and stop
+    ...
+
+    % package require tcldoc
+    % help -ucli Tcl c*
+    catch                    Evaluate script and trap exceptional returns
+    cd                       Change working directory
+    clock                    Obtain and manipulate time
+    ...
+
+    % package require tcldoc
+    % help -ucli stack -apropos
+    stack                    Display thread information or move the call stack
+    status                   Display the macro file stack
+    uplevel                  Execute a script in a different stack frame
+    ...
+=== gui_set_radix
+
+--- help
+help                         Display command help
+Usage:
+    help -ucli [<patterns>] [<option>]
+
+Description:
+    help              ;# one line description of each command
+    help <cmd>        ;# usage information for <cmd>
+    help <pattern>    ;# one line desc of cmds matching pattern
+    help <cmd> <option>
+      where <option> is one of:
+        -text         ;# one line description for <cmd>
+        -info         ;# short usage information for <cmd>
+        -full         ;# full usage information with examples
+        -apropos      ;# scan one-line descriptions for matching text
+
+        -brief        ;# brief string for <cmd>
+        -usage        ;# usage string for <cmd>
+        -description  ;# description string for <cmd>
+        -examples     ;# examples string for <cmd>
+
+Examples:
+    % help -ucli r*
+    release                  Release a variable from the value assigned using 'force'
+    restore                  Restore simulation state saved in a file
+    run                      Advance the tool and stop
+    ...
+
+    % package require tcldoc
+    % help -ucli Tcl c*
+    catch                    Evaluate script and trap exceptional returns
+    cd                       Change working directory
+    clock                    Obtain and manipulate time
+    ...
+
+    % package require tcldoc
+    % help -ucli stack -apropos
+    stack                    Display thread information or move the call stack
+    status                   Display the macro file stack
+    uplevel                  Execute a script in a different stack frame
+    ...
+=== gui_pane_maximize
+
+--- help
+help                         Display command help
+Usage:
+    help -ucli [<patterns>] [<option>]
+
+Description:
+    help              ;# one line description of each command
+    help <cmd>        ;# usage information for <cmd>
+    help <pattern>    ;# one line desc of cmds matching pattern
+    help <cmd> <option>
+      where <option> is one of:
+        -text         ;# one line description for <cmd>
+        -info         ;# short usage information for <cmd>
+        -full         ;# full usage information with examples
+        -apropos      ;# scan one-line descriptions for matching text
+
+        -brief        ;# brief string for <cmd>
+        -usage        ;# usage string for <cmd>
+        -description  ;# description string for <cmd>
+        -examples     ;# examples string for <cmd>
+
+Examples:
+    % help -ucli r*
+    release                  Release a variable from the value assigned using 'force'
+    restore                  Restore simulation state saved in a file
+    run                      Advance the tool and stop
+    ...
+
+    % package require tcldoc
+    % help -ucli Tcl c*
+    catch                    Evaluate script and trap exceptional returns
+    cd                       Change working directory
+    clock                    Obtain and manipulate time
+    ...
+
+    % package require tcldoc
+    % help -ucli stack -apropos
+    stack                    Display thread information or move the call stack
+    status                   Display the macro file stack
+    uplevel                  Execute a script in a different stack frame
+    ...

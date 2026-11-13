@@ -1,0 +1,227 @@
+Design Hierarchy
+
+
+----------------
+SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT            
+ 89.79  98.49  88.55  81.82  83.33  91.99  94.58 tb_uvm_top 
+  
+  ----------------
+  SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT      
+   90.19  98.55  88.92  82.04  83.33  92.05  96.25 dutA 
+    
+    ----------------
+    SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT       
+     70.27  85.11  87.50  39.42 --      69.05 --     u_cfg 
+     86.75  97.22  96.15  53.63 --     100.00 --     u_csr 
+     92.89  98.81  86.85  90.51 --      92.45  95.83 u_drx 
+      
+      ----------------
+      SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT                   
+       95.65 --     --     --     --     --      95.65 u_dll_rx_chk      
+      100.00 --     --     --     --     --     100.00 u_dll_rx_ring_chk 
+      100.00 100.00 --     100.00 --     100.00 --     u_ring            
+    
+    ----------------
+    SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT       
+     92.87  98.74  91.10  82.90 100.00  89.90  94.59 u_dtx 
+      
+      ----------------
+      SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT              
+       94.59 --     --     --     --     --      94.59 u_dll_tx_chk 
+      100.00 100.00 --     100.00 --     100.00 --     u_replay_ram 
+    
+    ----------------
+    SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT      
+     90.23 100.00  94.52  72.15  83.33  91.38 100.00 u_fc 
+      
+      ----------------
+      SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT              
+      100.00 --     --     --     --     --     100.00 u_dll_fc_chk 
+    
+    ----------------
+    SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT      
+     91.79  99.63  87.60  81.03  90.91  91.55 100.00 u_mr 
+      
+      ----------------
+      SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT             
+       89.57 100.00  86.84  88.10 --      83.33 --     u_cp        
+      100.00 --     --     --     --     --     100.00 u_ofifo_chk 
+       99.76 100.00 --      99.28 --     100.00 --     u_rbuf      
+    
+    ----------------
+    SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT      
+     89.36  99.50  92.59  84.33  75.00  95.38 --     u_mw 
+      
+      ----------------
+      SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT        
+       90.48 100.00  84.21  88.82 --      88.89 --     u_ep   
+      100.00 100.00 --     100.00 --     100.00 --     u_pram 
+    
+    ----------------
+    SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT                
+    100.00 --     --     --     --     --     100.00 u_mw_bcnt_chk  
+     96.20 --     --     --     --     --      96.20 u_pcie_checker 
+     88.72  98.34  88.37  88.13  75.00  92.00  90.48 u_slv          
+      
+      ----------------
+      SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT      
+       90.53  99.48  88.18  91.28  85.71  88.52  90.00 u_co 
+        
+        ----------------
+        SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT               
+         50.00 --     --     --     --     --      50.00 u_ofifo_chk   
+         87.67 100.00  78.95  88.41 --      83.33 --     u_rp          
+        100.00 --     --     --     --     --     100.00 u_wr_coal_chk 
+      
+      ----------------
+      SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT      
+       92.54  97.80  91.33  78.31 --      95.24 100.00 u_rd 
+        
+        ----------------
+        SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT              
+        100.00 --     --     --     --     --     100.00 u_slv_rd_chk 
+      
+      ----------------
+      SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT        
+       89.99  98.51  84.96  82.95 --      94.64  88.89 u_tags 
+        
+        ----------------
+        SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT              
+        100.00 100.00 --     100.00 --     100.00 --     u_cbuf       
+         88.89 --     --     --     --     --      88.89 u_rd_tag_chk 
+         90.98 100.00  86.84  88.20 --      88.89 --     u_rp         
+      
+      ----------------
+      SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT      
+       86.57  96.88  87.27  91.49  69.23  88.00 --     u_wr 
+    
+    ----------------
+    SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT              
+    100.00 --     --     --     --     --     100.00 u_tl_top_chk 
+     86.54  97.64  84.64  57.72 --      96.88  95.83 u_trx        
+      
+      ----------------
+      SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT             
+       95.83 --     --     --     --     --      95.83 u_tl_rx_chk 
+    
+    ----------------
+    SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT       
+     94.67  99.34  93.85  81.81 --      98.33 100.00 u_ttx 
+      
+      ----------------
+      SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT             
+       98.66 100.00 100.00  94.63 --     100.00 --     u_qcpl      
+       90.67 100.00 100.00  62.69 --     100.00 --     u_qnp       
+       99.48 100.00 100.00  97.91 --     100.00 --     u_qp        
+      100.00 --     --     --     --     --     100.00 u_tl_tx_chk 
+  
+  ----------------
+  SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT      
+   89.40  98.42  88.19  81.60  83.33  91.93  92.92 dutB 
+    
+    ----------------
+    SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT       
+     72.43  85.11  84.38  51.19 --      69.05 --     u_cfg 
+     86.70  97.22  96.15  53.42 --     100.00 --     u_csr 
+     92.91  98.81  86.38  91.08 --      92.45  95.83 u_drx 
+      
+      ----------------
+      SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT                   
+       95.65 --     --     --     --     --      95.65 u_dll_rx_chk      
+      100.00 --     --     --     --     --     100.00 u_dll_rx_ring_chk 
+      100.00 100.00 --     100.00 --     100.00 --     u_ring            
+    
+    ----------------
+    SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT       
+     89.04  98.11  86.83  82.05 100.00  88.89  78.38 u_dtx 
+      
+      ----------------
+      SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT              
+       78.38 --     --     --     --     --      78.38 u_dll_tx_chk 
+      100.00 100.00 --     100.00 --     100.00 --     u_replay_ram 
+    
+    ----------------
+    SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT      
+     89.08  99.29  94.52  72.93  83.33  89.66  94.74 u_fc 
+      
+      ----------------
+      SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT              
+       94.74 --     --     --     --     --      94.74 u_dll_fc_chk 
+    
+    ----------------
+    SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT      
+     92.37  99.63  88.43  82.28  90.91  92.96 100.00 u_mr 
+      
+      ----------------
+      SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT             
+       88.91 100.00  84.21  88.10 --      83.33 --     u_cp        
+      100.00 --     --     --     --     --     100.00 u_ofifo_chk 
+       99.76 100.00 --      99.28 --     100.00 --     u_rbuf      
+    
+    ----------------
+    SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT      
+     89.53  99.50  92.59  85.18  75.00  95.38 --     u_mw 
+      
+      ----------------
+      SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT        
+       90.48 100.00  84.21  88.82 --      88.89 --     u_ep   
+      100.00 100.00 --     100.00 --     100.00 --     u_pram 
+    
+    ----------------
+    SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT                
+    100.00 --     --     --     --     --     100.00 u_mw_bcnt_chk  
+     96.20 --     --     --     --     --      96.20 u_pcie_checker 
+     88.54  98.34  88.50  86.90  75.00  92.00  90.48 u_slv          
+      
+      ----------------
+      SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT      
+       90.50  99.48  88.67  90.59  85.71  88.52  90.00 u_co 
+        
+        ----------------
+        SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT               
+         50.00 --     --     --     --     --      50.00 u_ofifo_chk   
+         88.33 100.00  81.58  88.41 --      83.33 --     u_rp          
+        100.00 --     --     --     --     --     100.00 u_wr_coal_chk 
+      
+      ----------------
+      SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT      
+       92.42  97.80  91.33  77.71 --      95.24 100.00 u_rd 
+        
+        ----------------
+        SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT              
+        100.00 --     --     --     --     --     100.00 u_slv_rd_chk 
+      
+      ----------------
+      SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT        
+       89.98  98.51  84.96  82.88 --      94.64  88.89 u_tags 
+        
+        ----------------
+        SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT              
+        100.00 100.00 --     100.00 --     100.00 --     u_cbuf       
+         88.89 --     --     --     --     --      88.89 u_rd_tag_chk 
+         90.98 100.00  86.84  88.20 --      88.89 --     u_rp         
+      
+      ----------------
+      SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT      
+       86.28  96.88  87.27  90.00  69.23  88.00 --     u_wr 
+    
+    ----------------
+    SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT              
+    100.00 --     --     --     --     --     100.00 u_tl_top_chk 
+     87.36  97.64  84.06  62.41 --      96.88  95.83 u_trx        
+      
+      ----------------
+      SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT             
+       95.83 --     --     --     --     --      95.83 u_tl_rx_chk 
+    
+    ----------------
+    SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT       
+     92.40  99.34  92.31  76.55 --      98.33  95.45 u_ttx 
+      
+      ----------------
+      SCORE  LINE   COND   TOGGLE FSM    BRANCH ASSERT             
+       98.66 100.00 100.00  94.63 --     100.00 --     u_qcpl      
+       87.16 100.00 100.00  48.62 --     100.00 --     u_qnp       
+       98.21 100.00 100.00  92.84 --     100.00 --     u_qp        
+       95.45 --     --     --     --     --      95.45 u_tl_tx_chk 
+

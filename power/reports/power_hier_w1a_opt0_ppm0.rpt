@@ -1,0 +1,52 @@
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : pcie_ep_top_OPT_EN1
+Version: V-2023.12-SP5
+Date   : Thu Nov 12 19:02:12 2026
+****************************************
+
+
+Library(s) Used:
+
+    gscl45nm (File: /apps/cadence/gpdk/FreePDK45/osu_soc/lib/files/gscl45nm.db)
+
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+pcie_ep_top_OPT_EN1                     262.845  291.682 5.61e+06  560.142 100.0
+  u_mr (mst_rd_path_8_0100)              50.417   16.311 3.33e+05   67.061  12.0
+  u_mw (mst_wr_path)                     50.415   31.024 6.17e+05   82.057  14.6
+  u_slv (axi_slv_bridge_1_16_0100_00000000f0000000)
+                                         52.803   79.469 1.66e+06  133.930  23.9
+  u_trx (tl_rx_256_20_0100_32_128_32_32_0_0)
+                                          0.000   25.563 5.26e+05   26.089   4.7
+  u_ttx (tl_tx)                           2.042   95.067 1.54e+06   98.646  17.6
+  u_cfg (cfg_space_MPS_MAX_BYTES256_BAR0_SIZE_LOG220)
+                                          0.000    0.138 3.16e+03    0.141   0.0
+  u_drx (dll_rx_MAX_FRAME_BEATS18_OPT_EN1)
+                                         50.531    6.205 2.17e+05   56.953  10.2
+  u_dtx (dll_tx_REPLAY_BUF_BEATS256_MAX_REPLAY_TLPS64_OPT_EN1)
+                                         56.567   24.106 4.28e+05   81.101  14.5
+  u_fc (dll_fc_P_HDR_CR32_P_DATA_CR128_NP_HDR_CR32_NP_DATA_CR32_CPL_HDR_CR0_CPL_DATA_CR0_OPT_EN1)
+                                       6.26e-02    1.445 3.08e+04    1.538   0.3
+  u_csr (csr_regs_MAX_REPLAY_TLPS64_MAX_TAGS16)
+                                       1.48e-02   12.335 2.65e+05   12.615   2.3
+1

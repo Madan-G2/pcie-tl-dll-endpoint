@@ -1,0 +1,1424 @@
+Group : pcie_uvm_pkg::pcie_cov::cg_fi
+
+===============================================================================
+Group : pcie_uvm_pkg::pcie_cov::cg_fi
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+ 71.22  71.22    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/home/user/pci e/pcie-tl-dll/tb/uvm/cov/pcie_cov.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                    
+ 71.22 1      100    1        64           64            tb_uvm_top.me.obj.cg_fi 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   pcie_uvm_pkg::pcie_cov::cg_fi
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 73       63        10      67.19   
+Crosses   12       2         10      83.33   
+
+
+Variables for Group  pcie_uvm_pkg::pcie_cov::cg_fi
+
+
+VARIABLE  EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+cp_action 7        0         7       100.00  100  1      1        0                    
+cp_dllp   2        0         2       100.00  100  1      1        2                    
+cp_dir    64       63        1       1.56    100  1      1        64                   
+
+
+Crosses for Group  pcie_uvm_pkg::pcie_cov::cg_fi
+
+
+CROSS      EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+x_act_kind 12       2         10      83.33   100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_action
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 7        0         7       100.00  
+
+
+User Defined Bins for cp_action
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+delay    20    1        
+linkdown 10    1        
+replhdr  155   1        
+seqoff   20    1        
+dup      20    1        
+drop     260   1        
+corrupt  465   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_dllp
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        0         2       100.00  
+
+
+Automatically Generated Bins for cp_dllp
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+auto[0] 821   1        
+auto[1] 334   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_dir
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 64       63        1       1.56    
+
+
+Automatically Generated Bins for cp_dir
+
+
+Uncovered bins
+
+NAME                                                     COUNT AT LEAST NUMBER 
+[auto[-2147483648:-2080374785] - auto[-67108864:-1]]     --    --       32     
+[auto[67108864:134217727] - auto[2080374784:2147483647]] --    --       31     
+
+
+Covered bins
+
+NAME             COUNT AT LEAST 
+auto[0:67108863] 1155  1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross x_act_kind
+
+
+Samples crossed: cp_action cp_dllp
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+TOTAL                              12       2         10      83.33   2       
+Automatically Generated Cross Bins 12       2         10      83.33   2       
+User Defined Cross Bins            0        0         0                       
+
+
+Automatically Generated Cross Bins for x_act_kind
+
+
+Uncovered bins
+
+cp_action cp_dllp   COUNT AT LEAST NUMBER 
+[delay]   [auto[1]] 0     1        1      
+[dup]     [auto[1]] 0     1        1      
+
+
+Covered bins
+
+cp_action cp_dllp COUNT AT LEAST 
+delay     auto[0] 20    1        
+linkdown  auto[0] 3     1        
+linkdown  auto[1] 7     1        
+replhdr   auto[0] 155   1        
+seqoff    auto[0] 20    1        
+dup       auto[0] 20    1        
+drop      auto[0] 20    1        
+drop      auto[1] 240   1        
+corrupt   auto[0] 378   1        
+corrupt   auto[1] 87    1        
+
+
+User Defined Cross Bins for x_act_kind
+
+
+Excluded/Illegal bins
+
+NAME          COUNT STATUS   
+tlp_only_dllp 0     Excluded 
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : tb_uvm_top.me.obj.cg_fi
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 71.22 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                          
+ 71.22  71.22    1      100    1        1            64           64                    pcie_uvm_pkg::pcie_cov::cg_fi 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   tb_uvm_top.me.obj.cg_fi
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 73       63        10      67.19   
+Crosses   12       2         10      83.33   
+
+
+Variables for Group Instance  tb_uvm_top.me.obj.cg_fi
+
+
+VARIABLE  EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+cp_action 7        0         7       100.00  100  1      1        0                    
+cp_dllp   2        0         2       100.00  100  1      1        2                    
+cp_dir    64       63        1       1.56    100  1      1        64                   
+
+
+Crosses for Group Instance  tb_uvm_top.me.obj.cg_fi
+
+
+CROSS      EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+x_act_kind 12       2         10      83.33   100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_action
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 7        0         7       100.00  
+
+
+User Defined Bins for cp_action
+
+
+Bins
+
+NAME     COUNT AT LEAST 
+delay    20    1        
+linkdown 10    1        
+replhdr  155   1        
+seqoff   20    1        
+dup      20    1        
+drop     260   1        
+corrupt  465   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_dllp
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        0         2       100.00  
+
+
+Automatically Generated Bins for cp_dllp
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+auto[0] 821   1        
+auto[1] 334   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_dir
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 64       63        1       1.56    
+
+
+Automatically Generated Bins for cp_dir
+
+
+Uncovered bins
+
+NAME                                                     COUNT AT LEAST NUMBER 
+[auto[-2147483648:-2080374785] - auto[-67108864:-1]]     --    --       32     
+[auto[67108864:134217727] - auto[2080374784:2147483647]] --    --       31     
+
+
+Covered bins
+
+NAME             COUNT AT LEAST 
+auto[0:67108863] 1155  1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross x_act_kind
+
+
+Samples crossed: cp_action cp_dllp
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+TOTAL                              12       2         10      83.33   2       
+Automatically Generated Cross Bins 12       2         10      83.33   2       
+User Defined Cross Bins            0        0         0                       
+
+
+Automatically Generated Cross Bins for x_act_kind
+
+
+Uncovered bins
+
+cp_action cp_dllp   COUNT AT LEAST NUMBER 
+[delay]   [auto[1]] 0     1        1      
+[dup]     [auto[1]] 0     1        1      
+
+
+Covered bins
+
+cp_action cp_dllp COUNT AT LEAST 
+delay     auto[0] 20    1        
+linkdown  auto[0] 3     1        
+linkdown  auto[1] 7     1        
+replhdr   auto[0] 155   1        
+seqoff    auto[0] 20    1        
+dup       auto[0] 20    1        
+drop      auto[0] 20    1        
+drop      auto[1] 240   1        
+corrupt   auto[0] 378   1        
+corrupt   auto[1] 87    1        
+
+
+User Defined Cross Bins for x_act_kind
+
+
+Excluded/Illegal bins
+
+NAME          COUNT STATUS   
+tlp_only_dllp 0     Excluded 
+
+
+Group : pcie_uvm_pkg::pcie_cov::cg_dllp
+
+===============================================================================
+Group : pcie_uvm_pkg::pcie_cov::cg_dllp
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+ 75.00  75.00    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/home/user/pci e/pcie-tl-dll/tb/uvm/cov/pcie_cov.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                      
+ 75.00 1      100    1        64           64            tb_uvm_top.me.obj.cg_dllp 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   pcie_uvm_pkg::pcie_cov::cg_dllp
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 13       1         12      75.00   
+
+
+Variables for Group  pcie_uvm_pkg::pcie_cov::cg_dllp
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+cp_type  11       0         11      100.00  100  1      1        0                    
+cp_crc   2        1         1       50.00   100  1      1        2                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_type
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 11       0         11      100.00  
+
+
+User Defined Bins for cp_type
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+ufc_80  78925 1        
+ufc_90  79746 1        
+ufc_a0  796   1        
+ifc2_c0 442   1        
+ifc2_d0 442   1        
+ifc2_e0 442   1        
+ifc1_40 502   1        
+ifc1_50 502   1        
+ifc1_60 502   1        
+nak     555   1        
+ack     33270 1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_crc
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        1         1       50.00   
+
+
+Automatically Generated Bins for cp_crc
+
+
+Uncovered bins
+
+NAME      COUNT AT LEAST NUMBER 
+[auto[0]] 0     1        1      
+
+
+Covered bins
+
+NAME    COUNT  AT LEAST 
+auto[1] 196124 1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : tb_uvm_top.me.obj.cg_dllp
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 75.00 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                            
+ 75.00  75.00    1      100    1        1            64           64                    pcie_uvm_pkg::pcie_cov::cg_dllp 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   tb_uvm_top.me.obj.cg_dllp
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 13       1         12      75.00   
+
+
+Variables for Group Instance  tb_uvm_top.me.obj.cg_dllp
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+cp_type  11       0         11      100.00  100  1      1        0                    
+cp_crc   2        1         1       50.00   100  1      1        2                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_type
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 11       0         11      100.00  
+
+
+User Defined Bins for cp_type
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+ufc_80  78925 1        
+ufc_90  79746 1        
+ufc_a0  796   1        
+ifc2_c0 442   1        
+ifc2_d0 442   1        
+ifc2_e0 442   1        
+ifc1_40 502   1        
+ifc1_50 502   1        
+ifc1_60 502   1        
+nak     555   1        
+ack     33270 1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_crc
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        1         1       50.00   
+
+
+Automatically Generated Bins for cp_crc
+
+
+Uncovered bins
+
+NAME      COUNT AT LEAST NUMBER 
+[auto[0]] 0     1        1      
+
+
+Covered bins
+
+NAME    COUNT  AT LEAST 
+auto[1] 196124 1        
+
+
+Group : pcie_uvm_pkg::pcie_cov::cg_tlp
+
+===============================================================================
+Group : pcie_uvm_pkg::pcie_cov::cg_tlp
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+ 86.11  86.11    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/home/user/pci e/pcie-tl-dll/tb/uvm/cov/pcie_cov.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                     
+ 86.11 1      100    1        64           64            tb_uvm_top.me.obj.cg_tlp 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   pcie_uvm_pkg::pcie_cov::cg_tlp
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 14       0         14      100.00  
+Crosses   48       20        28      58.33   
+
+
+Variables for Group  pcie_uvm_pkg::pcie_cov::cg_tlp
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+cp_type  8        0         8       100.00  100  1      1        0                    
+cp_len   6        0         6       100.00  100  1      1        0                    
+
+
+Crosses for Group  pcie_uvm_pkg::pcie_cov::cg_tlp
+
+
+CROSS      EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+x_type_len 48       20        28      58.33   100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_type
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 8        0         8       100.00  
+
+
+User Defined Bins for cp_type
+
+
+Bins
+
+NAME  COUNT AT LEAST 
+cpld  11190 1        
+cpl   1286  1        
+cfgwr 1172  1        
+cfgrd 1338  1        
+mwr64 157   1        
+mwr32 14381 1        
+mrd64 90    1        
+mrd32 9816  1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_len
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 6        0         6       100.00  
+
+
+User Defined Bins for cp_len
+
+
+Bins
+
+NAME       COUNT AT LEAST 
+huge       101   1        
+big        4248  1        
+sixteen_32 3832  1        
+five_16    11556 1        
+two_4      5971  1        
+one        12436 1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross x_type_len
+
+
+Samples crossed: cp_type cp_len
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 48       20        28      58.33   20      
+
+
+Automatically Generated Cross Bins for x_type_len
+
+
+Element holes
+
+cp_type cp_len COUNT AT LEAST NUMBER 
+[cpl]   *      --    --       6      
+
+
+Uncovered bins
+
+cp_type                 cp_len                                      COUNT AT LEAST NUMBER 
+[cpld]                  [huge]                                      0     1        1      
+[cfgwr , cfgrd]         [huge , big , sixteen_32 , five_16 , two_4] --    --       10     
+[mwr64 , mwr32 , mrd64] [huge]                                      --    --       3      
+
+
+Covered bins
+
+cp_type cp_len     COUNT AT LEAST 
+cpld    big        1254  1        
+cpld    sixteen_32 1599  1        
+cpld    five_16    4469  1        
+cpld    two_4      2299  1        
+cpld    one        1569  1        
+cfgwr   one        1172  1        
+cfgrd   one        1338  1        
+mwr64   big        16    1        
+mwr64   sixteen_32 9     1        
+mwr64   five_16    24    1        
+mwr64   two_4      90    1        
+mwr64   one        18    1        
+mwr32   big        1796  1        
+mwr32   sixteen_32 631   1        
+mwr32   five_16    2566  1        
+mwr32   two_4      1312  1        
+mwr32   one        8076  1        
+mrd64   big        15    1        
+mrd64   sixteen_32 12    1        
+mrd64   five_16    22    1        
+mrd64   two_4      26    1        
+mrd64   one        15    1        
+mrd32   huge       101   1        
+mrd32   big        1167  1        
+mrd32   sixteen_32 1581  1        
+mrd32   five_16    4475  1        
+mrd32   two_4      2244  1        
+mrd32   one        248   1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : tb_uvm_top.me.obj.cg_tlp
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 86.11 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                           
+ 86.11  86.11    1      100    1        1            64           64                    pcie_uvm_pkg::pcie_cov::cg_tlp 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   tb_uvm_top.me.obj.cg_tlp
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 14       0         14      100.00  
+Crosses   48       20        28      58.33   
+
+
+Variables for Group Instance  tb_uvm_top.me.obj.cg_tlp
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+cp_type  8        0         8       100.00  100  1      1        0                    
+cp_len   6        0         6       100.00  100  1      1        0                    
+
+
+Crosses for Group Instance  tb_uvm_top.me.obj.cg_tlp
+
+
+CROSS      EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+x_type_len 48       20        28      58.33   100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_type
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 8        0         8       100.00  
+
+
+User Defined Bins for cp_type
+
+
+Bins
+
+NAME  COUNT AT LEAST 
+cpld  11190 1        
+cpl   1286  1        
+cfgwr 1172  1        
+cfgrd 1338  1        
+mwr64 157   1        
+mwr32 14381 1        
+mrd64 90    1        
+mrd32 9816  1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_len
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 6        0         6       100.00  
+
+
+User Defined Bins for cp_len
+
+
+Bins
+
+NAME       COUNT AT LEAST 
+huge       101   1        
+big        4248  1        
+sixteen_32 3832  1        
+five_16    11556 1        
+two_4      5971  1        
+one        12436 1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross x_type_len
+
+
+Samples crossed: cp_type cp_len
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 48       20        28      58.33   20      
+
+
+Automatically Generated Cross Bins for x_type_len
+
+
+Element holes
+
+cp_type cp_len COUNT AT LEAST NUMBER 
+[cpl]   *      --    --       6      
+
+
+Uncovered bins
+
+cp_type                 cp_len                                      COUNT AT LEAST NUMBER 
+[cpld]                  [huge]                                      0     1        1      
+[cfgwr , cfgrd]         [huge , big , sixteen_32 , five_16 , two_4] --    --       10     
+[mwr64 , mwr32 , mrd64] [huge]                                      --    --       3      
+
+
+Covered bins
+
+cp_type cp_len     COUNT AT LEAST 
+cpld    big        1254  1        
+cpld    sixteen_32 1599  1        
+cpld    five_16    4469  1        
+cpld    two_4      2299  1        
+cpld    one        1569  1        
+cfgwr   one        1172  1        
+cfgrd   one        1338  1        
+mwr64   big        16    1        
+mwr64   sixteen_32 9     1        
+mwr64   five_16    24    1        
+mwr64   two_4      90    1        
+mwr64   one        18    1        
+mwr32   big        1796  1        
+mwr32   sixteen_32 631   1        
+mwr32   five_16    2566  1        
+mwr32   two_4      1312  1        
+mwr32   one        8076  1        
+mrd64   big        15    1        
+mrd64   sixteen_32 12    1        
+mrd64   five_16    22    1        
+mrd64   two_4      26    1        
+mrd64   one        15    1        
+mrd32   huge       101   1        
+mrd32   big        1167  1        
+mrd32   sixteen_32 1581  1        
+mrd32   five_16    4475  1        
+mrd32   two_4      2244  1        
+mrd32   one        248   1        
+
+
+Group : pcie_uvm_pkg::pcie_cov::cg_err
+
+===============================================================================
+Group : pcie_uvm_pkg::pcie_cov::cg_err
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+ 87.50  87.50    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/home/user/pci e/pcie-tl-dll/tb/uvm/cov/pcie_cov.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                     
+ 87.50 1      100    1        64           64            tb_uvm_top.me.obj.cg_err 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   pcie_uvm_pkg::pcie_cov::cg_err
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 16       2         14      87.50   
+
+
+Variables for Group  pcie_uvm_pkg::pcie_cov::cg_err
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+cp_bit   16       2         14      87.50   100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_bit
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 16       2         14      87.50   
+
+
+User Defined Bins for cp_bit
+
+
+Uncovered bins
+
+NAME COUNT AT LEAST NUMBER 
+b_12 0     1        1      
+b_13 0     1        1      
+
+
+Covered bins
+
+NAME COUNT AT LEAST 
+b_0  51    1        
+b_1  42    1        
+b_2  30    1        
+b_3  5     1        
+b_4  36    1        
+b_5  15    1        
+b_6  30    1        
+b_7  10    1        
+b_8  25    1        
+b_9  19    1        
+b_10 50    1        
+b_11 15    1        
+b_14 35    1        
+b_15 10    1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : tb_uvm_top.me.obj.cg_err
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 87.50 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                           
+ 87.50  87.50    1      100    1        1            64           64                    pcie_uvm_pkg::pcie_cov::cg_err 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   tb_uvm_top.me.obj.cg_err
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 16       2         14      87.50   
+
+
+Variables for Group Instance  tb_uvm_top.me.obj.cg_err
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+cp_bit   16       2         14      87.50   100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_bit
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 16       2         14      87.50   
+
+
+User Defined Bins for cp_bit
+
+
+Uncovered bins
+
+NAME COUNT AT LEAST NUMBER 
+b_12 0     1        1      
+b_13 0     1        1      
+
+
+Covered bins
+
+NAME COUNT AT LEAST 
+b_0  51    1        
+b_1  42    1        
+b_2  30    1        
+b_3  5     1        
+b_4  36    1        
+b_5  15    1        
+b_6  30    1        
+b_7  10    1        
+b_8  25    1        
+b_9  19    1        
+b_10 50    1        
+b_11 15    1        
+b_14 35    1        
+b_15 10    1        
+
+
+Group : pcie_uvm_pkg::pcie_cov::cg_axi
+
+===============================================================================
+Group : pcie_uvm_pkg::pcie_cov::cg_axi
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+ 95.00  95.00    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/home/user/pci e/pcie-tl-dll/tb/uvm/cov/pcie_cov.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                     
+ 95.00 1      100    1        64           64            tb_uvm_top.me.obj.cg_axi 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   pcie_uvm_pkg::pcie_cov::cg_axi
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 16       1         15      96.67   
+Crosses   16       2         14      90.00   
+
+
+Variables for Group  pcie_uvm_pkg::pcie_cov::cg_axi
+
+
+VARIABLE   EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+cp_rw      2        0         2       100.00  100  1      1        2                    
+cp_size    3        0         3       100.00  100  1      1        0                    
+cp_len     5        1         4       80.00   100  1      1        0                    
+cp_partial 2        0         2       100.00  100  1      1        2                    
+cp_unsup   2        0         2       100.00  100  1      1        2                    
+cp_resp    2        0         2       100.00  100  1      1        0                    
+
+
+Crosses for Group  pcie_uvm_pkg::pcie_cov::cg_axi
+
+
+CROSS     EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+x_rw_size 6        0         6       100.00  100  1      1        0                     
+x_rw_len  10       2         8       80.00   100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_rw
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        0         2       100.00  
+
+
+Automatically Generated Bins for cp_rw
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+auto[0] 10051 1        
+auto[1] 15918 1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_size
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 3        0         3       100.00  
+
+
+User Defined Bins for cp_size
+
+
+Excluded/Illegal bins
+
+NAME  COUNT STATUS   
+other 15    Excluded 
+
+
+Covered bins
+
+NAME COUNT AT LEAST 
+s16  9198  1        
+s8   2246  1        
+s4   14510 1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_len
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 5        1         4       80.00   
+
+
+User Defined Bins for cp_len
+
+
+Uncovered bins
+
+NAME COUNT AT LEAST NUMBER 
+max  0     1        1      
+
+
+Covered bins
+
+NAME COUNT AT LEAST 
+big  938   1        
+mid  4419  1        
+few  5695  1        
+one  14917 1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_partial
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        0         2       100.00  
+
+
+Automatically Generated Bins for cp_partial
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+auto[0] 25070 1        
+auto[1] 899   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_unsup
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        0         2       100.00  
+
+
+Automatically Generated Bins for cp_unsup
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+auto[0] 25380 1        
+auto[1] 589   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_resp
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for cp_resp
+
+
+Excluded/Illegal bins
+
+NAME  COUNT STATUS   
+other 0     Excluded 
+
+
+Covered bins
+
+NAME   COUNT AT LEAST 
+slverr 589   1        
+ok     25380 1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross x_rw_size
+
+
+Samples crossed: cp_rw cp_size
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 6        0         6       100.00          
+
+
+Automatically Generated Cross Bins for x_rw_size
+
+
+Bins
+
+cp_rw   cp_size COUNT AT LEAST 
+auto[0] s16     6480  1        
+auto[0] s8      1101  1        
+auto[0] s4      2460  1        
+auto[1] s16     2718  1        
+auto[1] s8      1145  1        
+auto[1] s4      12050 1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross x_rw_len
+
+
+Samples crossed: cp_rw cp_len
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 10       2         8       80.00   2       
+
+
+Automatically Generated Cross Bins for x_rw_len
+
+
+Element holes
+
+cp_rw cp_len COUNT AT LEAST NUMBER 
+*     [max]  --    --       2      
+
+
+Covered bins
+
+cp_rw   cp_len COUNT AT LEAST 
+auto[0] big    362   1        
+auto[0] mid    2975  1        
+auto[0] few    3688  1        
+auto[0] one    3026  1        
+auto[1] big    576   1        
+auto[1] mid    1444  1        
+auto[1] few    2007  1        
+auto[1] one    11891 1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : tb_uvm_top.me.obj.cg_axi
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 95.00 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                           
+ 95.00  95.00    1      100    1        1            64           64                    pcie_uvm_pkg::pcie_cov::cg_axi 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   tb_uvm_top.me.obj.cg_axi
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 16       1         15      96.67   
+Crosses   16       2         14      90.00   
+
+
+Variables for Group Instance  tb_uvm_top.me.obj.cg_axi
+
+
+VARIABLE   EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+cp_rw      2        0         2       100.00  100  1      1        2                    
+cp_size    3        0         3       100.00  100  1      1        0                    
+cp_len     5        1         4       80.00   100  1      1        0                    
+cp_partial 2        0         2       100.00  100  1      1        2                    
+cp_unsup   2        0         2       100.00  100  1      1        2                    
+cp_resp    2        0         2       100.00  100  1      1        0                    
+
+
+Crosses for Group Instance  tb_uvm_top.me.obj.cg_axi
+
+
+CROSS     EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+x_rw_size 6        0         6       100.00  100  1      1        0                     
+x_rw_len  10       2         8       80.00   100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_rw
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        0         2       100.00  
+
+
+Automatically Generated Bins for cp_rw
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+auto[0] 10051 1        
+auto[1] 15918 1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_size
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 3        0         3       100.00  
+
+
+User Defined Bins for cp_size
+
+
+Excluded/Illegal bins
+
+NAME  COUNT STATUS   
+other 15    Excluded 
+
+
+Covered bins
+
+NAME COUNT AT LEAST 
+s16  9198  1        
+s8   2246  1        
+s4   14510 1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_len
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 5        1         4       80.00   
+
+
+User Defined Bins for cp_len
+
+
+Uncovered bins
+
+NAME COUNT AT LEAST NUMBER 
+max  0     1        1      
+
+
+Covered bins
+
+NAME COUNT AT LEAST 
+big  938   1        
+mid  4419  1        
+few  5695  1        
+one  14917 1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_partial
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        0         2       100.00  
+
+
+Automatically Generated Bins for cp_partial
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+auto[0] 25070 1        
+auto[1] 899   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_unsup
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        0         2       100.00  
+
+
+Automatically Generated Bins for cp_unsup
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+auto[0] 25380 1        
+auto[1] 589   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable cp_resp
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for cp_resp
+
+
+Excluded/Illegal bins
+
+NAME  COUNT STATUS   
+other 0     Excluded 
+
+
+Covered bins
+
+NAME   COUNT AT LEAST 
+slverr 589   1        
+ok     25380 1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross x_rw_size
+
+
+Samples crossed: cp_rw cp_size
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 6        0         6       100.00          
+
+
+Automatically Generated Cross Bins for x_rw_size
+
+
+Bins
+
+cp_rw   cp_size COUNT AT LEAST 
+auto[0] s16     6480  1        
+auto[0] s8      1101  1        
+auto[0] s4      2460  1        
+auto[1] s16     2718  1        
+auto[1] s8      1145  1        
+auto[1] s4      12050 1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross x_rw_len
+
+
+Samples crossed: cp_rw cp_len
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 10       2         8       80.00   2       
+
+
+Automatically Generated Cross Bins for x_rw_len
+
+
+Element holes
+
+cp_rw cp_len COUNT AT LEAST NUMBER 
+*     [max]  --    --       2      
+
+
+Covered bins
+
+cp_rw   cp_len COUNT AT LEAST 
+auto[0] big    362   1        
+auto[0] mid    2975  1        
+auto[0] few    3688  1        
+auto[0] one    3026  1        
+auto[1] big    576   1        
+auto[1] mid    1444  1        
+auto[1] few    2007  1        
+auto[1] one    11891 1        
+
+
